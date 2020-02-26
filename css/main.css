@@ -1,0 +1,138 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+body, .banner, footer{
+    width: 100%;
+}
+
+/*--------------- Шапка ---------------*/
+header{
+    height: 190px;
+}
+a{
+    text-decoration: none;
+    color: #4c4840;
+}
+header>div:first-child{
+    border-bottom: 1px solid #ebebeb;
+}
+header>div:first-child>div{
+    height: 122px;
+    background: center center url(../img/header-backgr.png) no-repeat;
+}
+.fa-angle-down, .fa-map-marker{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.fa-angle-down{
+    color: #4c4840;
+    margin-left: 5px;
+}
+.fa-map-marker{
+    color: #f6041f;
+    margin-right: 5px;
+}
+.group-header{
+    height: 60px;
+}
+.group-small{
+    width: 200px;
+    height: 47px;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fa-user, .fa-comment{
+    font-size: 18px;
+}
+.circle:first-child{
+    margin-right: 13px;
+}
+.circle:last-child{
+    margin-right: 30px;
+}
+.line-vert{
+    width: 1px;
+    background: #ebebeb;
+}
+.fa-shopping-basket{
+    font-size: 35px;
+    margin-left: 30px;
+    position: relative;
+    float: left;
+}
+.count{
+    width: 16px;
+    height: 16px;
+    background: #f6041f;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.in-cart{
+    margin-left: 15px;
+}
+
+/*--------------- Меню ---------------*/
+.navbar{
+    height: 67px;
+}
+.navbar>p>a{
+    height: 64px;
+    padding: 0 9px;
+    text-decoration: none;
+    border-top: 3px solid white;
+}
+.navbar>p>a:hover{
+    border-top: 3px solid #f6041f;
+}
+.banner{
+    height: 466px;
+    background: url(../img/banner.png) 50% 10%;
+}
+
+
+
+
+
+
+
+
+
+/*--------------- Подвал ---------------*/
+footer{
+    height: 431px;
+    border-top: 1px solid #ebebeb;
+}
+footer>div:first-child{
+    height: 307px;
+}
+footer>div:nth-child(2){
+    height: 123px;
+}
+footer>div:nth-child(2)>div{
+    border-top: 1px solid #ebebeb;
+}
+footer>div:nth-child(2)>div>div{
+    width: 360px;
+}
+.social:last-child{
+    margin-right: 0;
+}

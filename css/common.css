@@ -1,0 +1,103 @@
+.width-inherit{
+    width: inherit;
+}
+.height-inherit{
+    height: inherit;
+}
+.width-1170{
+    width: 1170px;
+}
+.width-1140-pad-15{
+    width: 1140px;
+    padding: 0 15px;
+}
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-row-center-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-row-align-center{
+    display: flex;
+    align-items: center;
+}
+.flex-row-end-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-column-center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.font-bold{
+    font-family: 'ProximaNova-Bold';
+}
+.font-bold-dark-s16-h24{
+    font-family: 'ProximaNova-Bold';
+    font-size: 16px;
+    color: #4c4840;
+    line-height: 24px;
+}
+.font-bold-dark-s20-h24{
+    font-family: 'ProximaNova-Bold';
+    font-size: 20px;
+    line-height: 24px;
+    color: #4c4840;
+}
+.font-reg{
+    font-family: 'ProximaNova-Regular';
+}
+.font-reg-light-s14-h24{
+    font-family: 'ProximaNova-Regular';
+    font-size: 14px;
+    color: #9d988f;
+    line-height: 24px;
+}
+.font-reg-light-s14-h62{
+    font-family: 'ProximaNova-Regular';
+    font-size: 14px;
+    line-height: 62.32px;
+    color: #8a867e;
+}
+.social{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid #ededed;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    cursor: pointer;
+}
+.social:hover{
+    background-color: #f6041f;
+    color: #ffffff;
+    border: 2px solid #f6041f;
+}
