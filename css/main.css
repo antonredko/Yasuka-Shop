@@ -1,18 +1,6 @@
-*{
-    margin: 0; 
-    padding: 0;
-}
-body, .banner, footer{
-    width: 100%;
-}
-
-/*--------------- Шапка ---------------*/
+/*------------------------------ Хедер ------------------------------*/
 header{
     height: 190px;
-}
-a{
-    text-decoration: none;
-    color: #4c4840;
 }
 header>div:first-child{
     border-bottom: 1px solid #ebebeb;
@@ -90,7 +78,7 @@ header>div:first-child>div{
     margin-left: 15px;
 }
 
-/*--------------- Меню ---------------*/
+/*------------------------------ Меню ------------------------------*/
 .navbar{
     height: 67px;
 }
@@ -116,7 +104,7 @@ header>div:first-child>div{
 
 
 
-/*--------------- Подвал ---------------*/
+/*------------------------------ Футер ------------------------------*/
 footer{
     height: 431px;
     border-top: 1px solid #ebebeb;
@@ -124,10 +112,32 @@ footer{
 footer>div:first-child{
     height: 307px;
 }
-
-
-
-
+footer>div:first-child i{
+    margin: 0 20px 0 3px;
+}
+footer>div:first-child>div>div:first-child,
+footer>div:first-child>div>div:first-child+div,
+footer>div:first-child>div>div:first-child+div+div,
+footer>div:first-child>div>div:last-child{
+    height: 262px;
+    padding-top: 45px;
+}
+footer>div:first-child>div>div:first-child+div>a>p:hover,
+footer>div:first-child>div>div:first-child+div+div>a>p:hover{
+    color: #f6041f;
+}
+footer>div:first-child>div>div:first-child{
+    width: 210px;
+}
+footer>div:first-child>div>div:first-child+div{
+    width: 145px;
+}
+footer>div:first-child>div>div:last-child{
+    width: 230px;
+}
+footer>div:first-child>div>div:last-child>p:nth-child(2){
+    margin: -30px 0 10px 0;
+}
 footer>div:nth-child(2){
     height: 123px;
 }

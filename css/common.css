@@ -1,3 +1,14 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+body, .banner, footer{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #4c4840;
+}
 .width-inherit{
     width: inherit;
 }
@@ -42,6 +53,10 @@
     justify-content: flex-end;
     align-items: center;
 }
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .flex-column-center{
     display: flex;
     flex-direction: column;
@@ -56,6 +71,18 @@
 .font-bold{
     font-family: 'ProximaNova-Bold';
 }
+.font-bold-dark-s14-h23{
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;
+    color: #4c4840;
+    line-height: 23px;
+}
+.font-bold-dark-s14-h24{
+    font-family: 'ProximaNova-Bold';
+    font-size: 14px;
+    color: #4c4840;
+    line-height: 24px;
+}
 .font-bold-dark-s16-h24{
     font-family: 'ProximaNova-Bold';
     font-size: 16px;
@@ -66,6 +93,12 @@
     font-family: 'ProximaNova-Bold';
     font-size: 20px;
     line-height: 24px;
+    color: #4c4840;
+}
+.font-bold-dark-s20-h62{
+    font-family: 'ProximaNova-Bold';
+    font-size: 20px;
+    line-height: 62.32px;
     color: #4c4840;
 }
 .font-reg{
