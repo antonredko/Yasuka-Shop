@@ -96,6 +96,10 @@ header>div:first-child>div{
     background: url(../img/banner.png) 50% 10%;
 }
 
+/*------------------------------ Фильтры ------------------------------*/
+.filters{
+    height: 125px;
+}
 
 
 

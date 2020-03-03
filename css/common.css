@@ -9,113 +9,57 @@ a{
     text-decoration: none;
     color: #4c4840;
 }
-.width-inherit{
+.w-inh{
     width: inherit;
 }
-.height-inherit{
+.h-inh{
     height: inherit;
 }
-.width-1170{
+.w1170{
     width: 1170px;
 }
-.width-1140-pad-15{
+.w1140_pad15{
     width: 1140px;
     padding: 0 15px;
 }
-.flex-center-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bgr-wh{
+    background: #ffffff;
 }
-.flex-row-center{
-    display: flex;
-    justify-content: center;
-}
-.flex-row-center-center{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.flex-row-space-between{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.flex-row-align-center{
-    display: flex;
-    align-items: center;
-}
-.flex-row-end-center{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
-.flex-column-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.flex-column-center-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.font-bold{
-    font-family: 'ProximaNova-Bold';
-}
-.font-bold-dark-s14-h23{
-    font-family: 'ProximaNova-Bold';
-    font-size: 14px;
-    color: #4c4840;
-    line-height: 23px;
-}
-.font-bold-dark-s14-h24{
-    font-family: 'ProximaNova-Bold';
-    font-size: 14px;
-    color: #4c4840;
-    line-height: 24px;
-}
-.font-bold-dark-s16-h24{
-    font-family: 'ProximaNova-Bold';
-    font-size: 16px;
-    color: #4c4840;
-    line-height: 24px;
-}
-.font-bold-dark-s20-h24{
-    font-family: 'ProximaNova-Bold';
-    font-size: 20px;
-    line-height: 24px;
-    color: #4c4840;
-}
-.font-bold-dark-s20-h62{
-    font-family: 'ProximaNova-Bold';
-    font-size: 20px;
-    line-height: 62.32px;
-    color: #4c4840;
-}
-.font-reg{
-    font-family: 'ProximaNova-Regular';
-}
-.font-reg-light-s14-h24{
-    font-family: 'ProximaNova-Regular';
-    font-size: 14px;
-    color: #9d988f;
-    line-height: 24px;
-}
-.font-reg-light-s14-h62{
-    font-family: 'ProximaNova-Regular';
-    font-size: 14px;
-    line-height: 62.32px;
+.filter{
+    height: 40px;
     color: #8a867e;
+    background: #f3f2f3;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
+.filter>i:first-child{
+    margin-left: 15px;
+}
+.filter>p{
+    margin: 0 10px;
+}
+.filter>i:last-child{
+    margin-right: 15px;
+}
+.prod{
+    width: 360px;
+    height: 480px;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
 .social{
     width: 44px;
     height: 44px;
@@ -133,4 +77,101 @@ a{
     background-color: #f6041f;
     color: #ffffff;
     border: 2px solid #f6041f;
+}
+
+/*------------------------------ Флексы ------------------------------*/
+.d-flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.j-cen_al-cen{
+    justify-content: center;
+    align-items: center;
+}
+.j-cen{
+    justify-content: center;
+}
+.row_j-cen_al-cen{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row_j-btw_al-cen{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.row_j-ar_al-cen{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.al-cen{
+    align-items: center;
+}
+.row_j-end_al-cen{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dir-col{
+    flex-direction: column;
+}
+.dir-col_j-cen{
+    flex-direction: column;
+    justify-content: center;
+}
+.dir-col_j-cen_al-cen{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------ Шрифты ------------------------------*/
+.font-b{
+    font-family: 'ProximaNova-Bold';
+}
+.dark_s14_h23{
+    font-size: 14px;
+    color: #4c4840;
+    line-height: 23px;
+}
+.dark_s14_h24{
+    font-size: 14px;
+    color: #4c4840;
+    line-height: 24px;
+}
+.dark_s16_h24{
+    font-size: 16px;
+    color: #4c4840;
+    line-height: 24px;
+}
+.dark_s20_h24{
+    font-size: 20px;
+    line-height: 24px;
+    color: #4c4840;
+}
+.dark_s20_h62{
+    font-size: 20px;
+    line-height: 62.32px;
+    color: #4c4840;
+}
+.font-reg{
+    font-family: 'ProximaNova-Regular';
+}
+.light_s14_h24{
+    font-size: 14px;
+    color: #9d988f;
+    line-height: 24px;
+}
+.light_s14_h62{
+    font-size: 14px;
+    line-height: 62.32px;
+    color: #8a867e;
+}
+.s16_h24{
+    font-size: 16px;
+    line-height: 24px;
 }
