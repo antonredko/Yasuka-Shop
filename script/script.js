@@ -7,19 +7,17 @@ function reloadPage(){
 LOGOS.forEach(item => item.addEventListener('click', reloadPage));
 
 // Создание позиции в каталоге
-var req = new XMLHttpRequest();
-req.open("GET", "products.json", true);
-console.log(JSON.parse(req));
+// var req = new XMLHttpRequest();
+// req.open("GET", "products.json", true);
 
-req.onreadystatechange = myCode;
-req.send(null);
-
-function myCode() {
-    if (req.readyState == 4) {
-        var doc = eval('(' + req.responseText + ')');
-    }
-}
-
+// req.onreadystatechange = myCode;
+// req.send(null);
+// console.log(req.status);
+// function myCode() {
+//     if (req.readyState == 4) {
+//         var doc = eval('(' + req.responseText + ')');
+//     }
+// }
 
 
 
@@ -38,22 +36,23 @@ function myCode() {
 
 
 
-// var data = {
-//     product1:{
+// var data = [
+//     {
 //         title: "Филадельфия с кунжутом",
 //         weight: "270г",
 //         calorie: "230ккал",
 //         composition: "Лосось, авокадо, икра тобико, крем-сыр, огурец",
 //         price: "140 &#8372;"
 //     },
-//     product2:{
+//     {
 //         title: "Филадельфия с кунжутом",
 //         weight: "270г",
 //         calorie: "230ккал",
 //         composition: "Лосось, авокадо, икра тобико, крем-сыр, огурец",
 //         price: "140 &#8372;"
 //     }
-// }
+// ]
+
 
 // var string = JSON.stringify(data);
 
