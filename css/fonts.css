@@ -12,3 +12,10 @@
     url('../fonts/ProximaNova-Regular.woff') format('woff'),
     url('../fonts/ProximaNova-Regular.ttf') format('truetype');
 }
+@font-face{
+    font-family: 'ProximaNova-Semibold';
+    src: url('../fonts/ProximaNova-Semibold.eot');
+    src: url('../fonts/ProximaNova-Semibold.eot?iefix') format('eot'),
+    url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+}
