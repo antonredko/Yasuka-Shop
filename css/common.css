@@ -86,54 +86,28 @@ a{
 .d-flex{
     display: flex;
 }
-.wrap{
-    flex-wrap: wrap;
-}
-.j-cen_al-cen{
-    justify-content: center;
-    align-items: center;
-}
-.j-cen{
-    justify-content: center;
-}
-.row_j-cen_al-cen{
+.row{
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.row_j-btw_al-cen{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.row_j-ar_al-cen{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-.al-cen{
-    align-items: center;
-}
-.row_j-end_al-cen{
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
 }
 .col{
     flex-direction: column;
 }
-.col_j-cen{
-    flex-direction: column;
+.wrap{
+    flex-wrap: wrap;
+}
+.j-cen{
     justify-content: center;
 }
-.col_j-cen_al-cen{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.col_j-btw_al-cen{
-    flex-direction: column;
+.j-btw{
     justify-content: space-between;
+}
+.j-ar{
+    justify-content: space-around;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.al-cen{
     align-items: center;
 }
 
@@ -141,53 +115,39 @@ a{
 .font-b{
     font-family: 'ProximaNova-Bold';
 }
-.dark_s14_h23{
-    font-size: 14px;
-    color: #4c4840;
-    line-height: 23px;
-}
-.dark_s14_h24{
-    font-size: 14px;
-    color: #4c4840;
-    line-height: 24px;
-}
-.dark_s16_h24{
-    font-size: 16px;
-    color: #4c4840;
-    line-height: 24px;
-}
-.dark_s20_h24{
-    font-size: 20px;
-    line-height: 24px;
-    color: #4c4840;
-}
-.dark_s20_h62{
-    font-size: 20px;
-    line-height: 62.32px;
-    color: #4c4840;
-}
 .font-reg{
     font-family: 'ProximaNova-Regular';
-}
-.light_s14_h24{
-    font-size: 14px;
-    color: #9d988f;
-    line-height: 24px;
-}
-.light_s14_h62{
-    font-size: 14px;
-    line-height: 62.32px;
-    color: #8a867e;
-}
-.s16_h24{
-    font-size: 16px;
-    line-height: 24px;
 }
 .font-sb{
     font-family: 'ProximaNova-Semibold';
 }
-.light_s14_h20{
-    font-size: 14px;
+.dark{
+    color: #4c4840;
+}
+.grey{
+    color: #8a867e;
+}
+.l-grey{
     color: #9d988f;
+}
+.s14{
+    font-size: 14px;
+}
+.s16{
+    font-size: 16px;
+}
+.s20{
+    font-size: 20px;
+}
+.h20{
     line-height: 20px;
+}
+.h23{
+    line-height: 23px;
+}
+.h24{
+    line-height: 24px;
+}
+.h62{
+    line-height: 62.32px;
 }
