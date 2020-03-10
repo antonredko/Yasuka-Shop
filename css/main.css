@@ -100,13 +100,117 @@ header .fa-shopping-basket{
 .filters{
     height: 125px;
 }
+.filter{
+    height: 40px;
+    color: #8a867e;
+    background: #f3f2f3;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.filter>i:first-child{
+    margin-left: 15px;
+}
+.filter>p{
+    margin: 0 10px;
+}
+.filter>i:last-child{
+    margin-right: 15px;
+}
 
-
-
-
-
-
-
+/*------------------------------ Каталог ------------------------------*/
+.prod{
+    width: 360px;
+    height: 480px;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.prod>div:first-child{
+    height: 47px;
+    margin-top: 10px;
+}
+.new{
+    width: 55px;
+    height: 25px;
+    float: left;
+    margin: 6px 0 0 29px;
+    background: #66a100;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.like{
+    width: 86px;
+    float: right;
+    background: #faeded;
+    color: #f6041f;
+    border-radius: 15px 0 0 15px;
+    -webkit-border-radius: 15px 0 0 15px;
+    -moz-border-radius: 15px 0 0 15px;
+    -ms-border-radius: 15px 0 0 15px;
+    -o-border-radius: 15px 0 0 15px;
+}
+.like>i{
+    margin-right: 8px;
+}
+.prod>img{
+    width: 230px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.prod>img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.title:hover{
+    cursor: pointer;
+    color: #f6041f;
+}
+.prod>p{
+    text-align: center;
+}
+.prod>p.font-sb{
+    width: 60%;
+}
+.prod>div:last-child{
+    margin-bottom: 10px;
+}
+.prod>div:last-child>p{
+    margin-left: 30px;
+}
+.prod button{
+    padding: 10px 20px;
+    border: 2px solid #f6041f;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.prod button:hover{
+    background: #f6041f;
+    color: #ffffff;
+    cursor: pointer;
+}
+.prod .fa-shopping-basket{
+    margin-right: 10px;
+}
 
 /*------------------------------ Футер ------------------------------*/
 footer{
@@ -151,6 +255,24 @@ footer>div:nth-child(2)>div{
 footer>div:nth-child(2)>div>div{
     width: 360px;
 }
+.social{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid #ededed;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    cursor: pointer;
+}
 .social:last-child{
     margin-right: 0;
+}
+.social:hover{
+    background-color: #f6041f;
+    color: #ffffff;
+    border: 2px solid #f6041f;
 }
