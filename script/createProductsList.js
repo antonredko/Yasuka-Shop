@@ -1,7 +1,7 @@
 const PROD = document.querySelector('.products'),
   REQ = new XMLHttpRequest();
 
-REQ.open("GET", '../products.json');
+REQ.open("GET", '../data/products.json');
 REQ.responseType = 'json';
 REQ.send();
 REQ.onload = function() {
