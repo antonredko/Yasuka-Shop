@@ -1,11 +1,13 @@
 [
     {
+        "img": "img/products/sushi/salmon.png",
         "title": "Филадельфия с кунжутом",
         "weight": "270г",
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, икра тобико, крем-сыр, огурец",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "new": true,
+        "discount": "-50%"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -13,7 +15,8 @@
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, крем-сыр, огурец, креветка",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png",
+        "discount": "-20%"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -21,7 +24,8 @@
         "calorie": "230ккал",
         "composition": "Лосось, кунжут, ореховый соус, водоросли хияши, огурец, угорь",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png",
+        "new": true
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -29,7 +33,8 @@
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, икра тобико, крем-сыр, огурец",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png",
+        "discount": "-10%"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -37,7 +42,8 @@
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, крем-сыр, огурец, креветка",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png",
+        "new": true
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -45,7 +51,7 @@
         "calorie": "230ккал",
         "composition": "Лосось, кунжут, ореховый соус, водоросли хияши, огурец, угорь",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -53,7 +59,7 @@
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, икра тобико, крем-сыр, огурец",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -61,7 +67,7 @@
         "calorie": "230ккал",
         "composition": "Лосось, авокадо, крем-сыр, огурец, креветка",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -69,6 +75,6 @@
         "calorie": "230ккал",
         "composition": "Лосось, кунжут, ореховый соус, водоросли хияши, огурец, угорь",
         "price": "140",
-        "img": "img/products/sushi.png"
+        "img": "img/products/sushi/salmon.png"
     }
 ]

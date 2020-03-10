@@ -13,6 +13,7 @@ function showProducts(jsonObj) {
   jsonObj.forEach(item => {
     let divProd = document.createElement('div'),
       details = document.createElement('div'),
+      like = document.createElement('div'),
       image = document.createElement('img'),
       title = document.createElement('p'),
       weight = document.createElement('p'),
@@ -24,7 +25,10 @@ function showProducts(jsonObj) {
     
     divProd.classList.add('prod', 'd-flex', 'col', 'j-ar', 'al-cen');
     details.classList.add('w-inh');
+    like.classList.add('like', 'h-inh', 'd-flex', 'j-cen', 'al-cen');
+    like.innerHTML = '<i style="font-size: 24px;" class="fa fa-thumbs-o-up s24" aria-hidden="true"></i><span class="font-reg s14 h24">0</span>';
     image.src = item.img;
+    image.setAttribute('alt', item.title);
     title.classList.add('title', 'font-b', 'dark', 's20', 'h24');
     title.innerText = item.title;
     weight.classList.add('font-b', 'l-grey', 's14', 'h24');
@@ -36,8 +40,22 @@ function showProducts(jsonObj) {
     price.innerText = item.price + ' грн';
     btn.classList.add('bgr-wh', 'font-b', 'dark', 's18', 'h24', 'd-flex', 'al-cen');
     btn.innerHTML = "<i class='fa fa-shopping-basket' aria-hidden='true'></i>Купить";
+
+    if(item.new) {
+      let nw = document.createElement('div');
+      nw.classList.add('new', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');
+      nw.innerText = 'New';
+      details.appendChild(nw);
+    }
+    if(item.discount) {
+      let discount = document.createElement('div');
+      discount.classList.add('discount', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');
+      discount.innerText = item.discount;
+      details.appendChild(discount);
+    }
     
     PROD.appendChild(divProd);
+    details.appendChild(like);
     divProd.appendChild(details);
     divProd.appendChild(image);
     divProd.appendChild(title);
