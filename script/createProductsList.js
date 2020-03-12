@@ -14,16 +14,13 @@ REQ.onload = function() {
 
 function createFilters(jsonObj) {
   let arrayFilters = [];
-
   jsonObj.forEach(item => {
     if(item.filter) arrayFilters.push(item.filter);
   });
 
   arrayFilters = Array.from(new Set(arrayFilters));
-  
   arrayFilters.forEach(item => {
     let filter = document.createElement('div');
-
     filter.classList.add('filter', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
     filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p>' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
     FILTERS.appendChild(filter);
