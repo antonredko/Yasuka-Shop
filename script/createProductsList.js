@@ -1,7 +1,8 @@
-const MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
+const FILTERS = document.querySelector('.filters').querySelector('.w1140_pad15'),
+  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
   PROD = document.querySelector('.products'),
   REQ = new XMLHttpRequest();
-
+console.log(FILTERS);
 REQ.open("GET", '../data/products.json');
 REQ.responseType = 'json';
 REQ.send();
