@@ -281,6 +281,9 @@ footer>div:nth-child(2)>div{
 footer>div:nth-child(2)>div>div{
     width: 360px;
 }
+footer>div:last-child>div>div>div>a:last-child>.social{
+    margin-right: 0;
+}
 .social{
     width: 44px;
     height: 44px;
@@ -292,10 +295,6 @@ footer>div:nth-child(2)>div>div{
     -moz-border-radius: 30%;
     -ms-border-radius: 30%;
     -o-border-radius: 30%;
-    cursor: pointer;
-}
-.social:last-child{
-    margin-right: 0;
 }
 .social:hover{
     background-color: #f6041f;

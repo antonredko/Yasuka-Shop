@@ -1,4 +1,5 @@
-const PROD = document.querySelector('.products'),
+const MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
+  PROD = document.querySelector('.products'),
   REQ = new XMLHttpRequest();
 
 REQ.open("GET", '../data/products.json');
@@ -67,4 +68,14 @@ function showProducts(jsonObj) {
     priceAndBye.appendChild(price);
     priceAndBye.appendChild(btn);
   });
+
+  let mainShowMore = document.createElement('div'),
+    btnShowMore = document.createElement('button');
+
+  mainShowMore.classList.add('w-inh', 'd-flex', 'j-cen');
+  btnShowMore.classList.add('showMore', 'font-b', 'dark', 's18', 'h24', 'd-flex', 'al-cen');
+  btnShowMore.innerHTML = '<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Показать еще';
+
+  mainShowMore.appendChild(btnShowMore);
+  MAIN_PROD.appendChild(mainShowMore);
 }
