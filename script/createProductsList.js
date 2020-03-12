@@ -2,16 +2,35 @@ const FILTERS = document.querySelector('.filters').querySelector('.w1140_pad15')
   MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
   PROD = document.querySelector('.products'),
   REQ = new XMLHttpRequest();
-console.log(FILTERS);
+  
 REQ.open("GET", '../data/products.json');
 REQ.responseType = 'json';
 REQ.send();
 REQ.onload = function() {
   let products = REQ.response;
-  showProducts(products);
+  createFilters(products);
+  createProducts(products);
 }
 
-function showProducts(jsonObj) {
+function createFilters(jsonObj) {
+  let arrayFilters = [];
+
+  jsonObj.forEach(item => {
+    if(item.filter) arrayFilters.push(item.filter);
+  });
+
+  arrayFilters = Array.from(new Set(arrayFilters));
+  
+  arrayFilters.forEach(item => {
+    let filter = document.createElement('div');
+
+    filter.classList.add('filter', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
+    filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p>' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
+    FILTERS.appendChild(filter);
+  });
+}
+
+function createProducts(jsonObj) {
   jsonObj.forEach(item => {
     let divProd = document.createElement('div'),
       details = document.createElement('div'),

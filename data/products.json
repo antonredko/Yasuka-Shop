@@ -7,7 +7,8 @@
         "composition": "Лосось, авокадо, икра тобико, крем-сыр, огурец",
         "price": "140",
         "new": true,
-        "discount": "-20%"
+        "discount": "-20%",
+        "filter": "Лосось"
     },
     {
         "title": "Филадельфия с кунжутом",
@@ -16,7 +17,8 @@
         "composition": "Лосось, авокадо, крем-сыр, огурец, креветка",
         "price": "140",
         "img": "img/products/sushi/salmon.png",
-        "discount": "-20%"
+        "discount": "-20%",
+        "filter": "Лосось"
     },
     {
         "title": "Филадельфия с кунжутом",
