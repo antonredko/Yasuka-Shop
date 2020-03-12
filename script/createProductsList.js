@@ -52,6 +52,8 @@ function showProducts(jsonObj) {
       discount.classList.add('discount', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');
       discount.innerText = item.discount;
       details.appendChild(discount);
+      
+      if(discount == details.children[1]) details.children[1].style.marginLeft = '10px';
     }
     
     PROD.appendChild(divProd);
