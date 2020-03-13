@@ -1,21 +1,7 @@
-import createFilters from './createFilters';
-
-const MAIN_FILTERS = document.querySelector('.filters'),
-  FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15'),
-  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
-  PROD = document.querySelector('.products'),
-  REQ = new XMLHttpRequest();
+export const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
+  PROD = document.querySelector('.products');
   
-REQ.open("GET", '../data/products.json');
-REQ.responseType = 'json';
-REQ.send();
-REQ.onload = function() {
-  let products = REQ.response;
-  createFilters(products);
-  createProducts(products);
-}
-
-function createProducts(jsonObj) {
+export function createProducts(jsonObj) {
   jsonObj.forEach(item => {
     let divProd = document.createElement('div'),
       details = document.createElement('div'),

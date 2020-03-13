@@ -1,5 +1,9 @@
+export const MAIN_FILTERS = document.querySelector('.filters'),
+             FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15');
+
 export function createFilters(jsonObj) {
     let arrayFilters = [];
+    
     jsonObj.forEach(item => {
         if(item.filter){
             if(/, /.test(item.filter)) {
