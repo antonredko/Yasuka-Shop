@@ -97,11 +97,9 @@ header .fa-shopping-basket{
 }
 
 /*------------------------------ Фильтры ------------------------------*/
-.filters{
-    height: 125px;
-}
 .filter{
     height: 40px;
+    margin-right: 20px;
     color: #8a867e;
     background: #f3f2f3;
     border-radius: 25px;
@@ -109,6 +107,9 @@ header .fa-shopping-basket{
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+}
+.filter:last-child{
+    margin-right: 0;
 }
 .filter>i:first-child{
     margin-left: 15px;
@@ -221,7 +222,7 @@ header .fa-shopping-basket{
     padding: 10px 20px;
     background: none;
     margin: 10px 0 40px 0;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 .showMore>i{
     color: #f6041f;
@@ -230,7 +231,7 @@ header .fa-shopping-basket{
 }
 .showMore:hover{
     cursor: pointer;
-    border: 1px solid #f6041f;
+    border: 2px solid #f6041f;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
