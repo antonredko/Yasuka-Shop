@@ -1,3 +1,5 @@
+import createFilters from './createFilters';
+
 const MAIN_FILTERS = document.querySelector('.filters'),
   FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15'),
   MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
@@ -11,29 +13,6 @@ REQ.onload = function() {
   let products = REQ.response;
   createFilters(products);
   createProducts(products);
-}
-
-function createFilters(jsonObj) {
-  // let arrayFilters = [];
-  // jsonObj.forEach(item => {
-  //   if(item[0].filter) {
-      
-      // Array.from(item.filter.split(', ')).forEach(item => {
-      //   arrayFilters.push(item.filter);
-      // });
-      // arrayFilters.push(item.filter);
-  //     MAIN_FILTERS.style.height = '125px';
-  //   }
-  // });
-
-  // arrayFilters = Array.from(new Set(arrayFilters));
-  // arrayFilters.forEach(item => {
-  //   let filter = document.createElement('div');
-  //   filter.classList.add('filter', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
-  //   filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p>' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
-  //   FILTERS.appendChild(filter);
-  // });
-  console.log(jsonObj[0].filter);
 }
 
 function createProducts(jsonObj) {
