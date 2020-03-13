@@ -120,6 +120,10 @@ header .fa-shopping-basket{
 .filter>i:last-child{
     margin-right: 15px;
 }
+.filter:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 /*------------------------------ Каталог ------------------------------*/
 .prod{

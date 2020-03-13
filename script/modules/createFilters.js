@@ -1,9 +1,9 @@
-export const MAIN_FILTERS = document.querySelector('.filters'),
-             FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15');
-
 export function createFilters(jsonObj) {
+    const MAIN_FILTERS = document.querySelector('.filters'),
+        FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15');
+
     let arrayFilters = [];
-    
+
     jsonObj.forEach(item => {
         if(item.filter){
             if(/, /.test(item.filter)) {
@@ -28,4 +28,12 @@ export function createFilters(jsonObj) {
         filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p>' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
         FILTERS.appendChild(filter);
     });
+
+    
 }
+document.querySelectorAll('.filter').forEach(item => {
+    item.onclick = function() {
+        this.style.background = '#f6041f';
+        this.style.color = '#ffffff';
+    }
+});

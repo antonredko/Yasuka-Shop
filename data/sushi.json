@@ -45,7 +45,8 @@
         "composition": "Лосось, авокадо, крем-сыр, огурец, креветка",
         "price": "140",
         "img": "img/products/sushi/salmon.png",
-        "new": true
+        "new": true,
+        "filter": "Сыр, Овощные"
     },
     {
         "title": "Филадельфия с кунжутом",

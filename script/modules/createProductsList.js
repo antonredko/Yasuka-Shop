@@ -1,7 +1,7 @@
-export const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
-  PROD = document.querySelector('.products');
-  
 export function createProducts(jsonObj) {
+  const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
+    PROD = document.querySelector('.products');
+
   jsonObj.forEach(item => {
     let divProd = document.createElement('div'),
       details = document.createElement('div'),
