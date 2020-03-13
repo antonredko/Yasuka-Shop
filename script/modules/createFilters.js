@@ -29,11 +29,10 @@ export function createFilters(jsonObj) {
         FILTERS.appendChild(filter);
     });
 
-    
+    // document.querySelectorAll('.filter').forEach(item => {
+    //     item.onclick = function() {
+    //         this.style.background = '#f6041f';
+    //         this.style.color = '#ffffff';
+    //     }
+    // });
 }
-document.querySelectorAll('.filter').forEach(item => {
-    item.onclick = function() {
-        this.style.background = '#f6041f';
-        this.style.color = '#ffffff';
-    }
-});
