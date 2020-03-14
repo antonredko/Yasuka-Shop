@@ -24,15 +24,8 @@ export function createFilters(jsonObj) {
     arrayFilters = Array.from(new Set(arrayFilters));
     arrayFilters.forEach(item => {
         let filter = document.createElement('div');
-        filter.classList.add('filter', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
-        filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p>' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
+        filter.classList.add('filter', 'filterNoActive', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
+        filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p class="filterName">' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
         FILTERS.appendChild(filter);
     });
-
-    // document.querySelectorAll('.filter').forEach(item => {
-    //     item.onclick = function() {
-    //         this.style.background = '#f6041f';
-    //         this.style.color = '#ffffff';
-    //     }
-    // });
 }
