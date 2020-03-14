@@ -33,6 +33,7 @@ export function createProducts(jsonObj) {
     btn.classList.add('bgr-wh', 'font-b', 'dark', 's18', 'h24', 'd-flex', 'al-cen');
     btn.innerHTML = "<i class='fa fa-shopping-basket' aria-hidden='true'></i>Купить";
 
+    if(item.filter) divProd.setAttribute('data-filter', item.filter);
     if(item.new) {
       let nw = document.createElement('div');
       nw.classList.add('new', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');

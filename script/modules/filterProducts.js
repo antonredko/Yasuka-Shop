@@ -22,4 +22,7 @@ window.onload = function() {
         this.removeEventListener('click', filterOff);
         this.addEventListener('click', filterOn);
     }
+
+    // console.log(document.querySelector('.prod').dataset.filter);
+
 }
