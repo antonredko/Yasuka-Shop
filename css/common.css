@@ -18,6 +18,10 @@ a{
 .w1170{
     width: 1170px;
 }
+.w1152_pad9{
+    width: 1152px;
+    padding: 0 9px;
+}
 .w1140_pad15{
     width: 1140px;
     padding: 0 15px;
@@ -88,6 +92,9 @@ a{
 }
 .s24{
     font-size: 24px;
+}
+.s40{
+    font-size: 40px;
 }
 .h20{
     line-height: 20px;
