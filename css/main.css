@@ -39,9 +39,6 @@ header>div:first-child>div{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.fa-user, .fa-comment{
-    font-size: 18px;
-}
 .circle:first-child{
     margin-right: 13px;
 }
@@ -76,6 +73,9 @@ header .fa-shopping-basket{
 }
 .in-cart{
     margin-left: 15px;
+}
+header>div:last-child{
+    border-bottom: 1px solid #ebebeb;
 }
 
 /*------------------------------ Меню ------------------------------*/

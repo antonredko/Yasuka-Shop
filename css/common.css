@@ -2,12 +2,12 @@
     margin: 0; 
     padding: 0;
 }
-body, .banner, footer{
-    width: 100%;
-}
 a{
     text-decoration: none;
     color: #4c4840;
+}
+.w100{
+    width: 100%;
 }
 .w-inh{
     width: inherit;

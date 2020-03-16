@@ -5,3 +5,6 @@ header+div{
 .navig>a:hover{
     opacity: 0.6;
 }
+.slides>img{
+    margin: 40px 40px 40px 35px;
+}
