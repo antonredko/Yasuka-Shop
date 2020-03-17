@@ -1,10 +1,12 @@
 header+div{
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 40px 0 20px 0;
 }
 .navig>a:hover{
     opacity: 0.6;
 }
 .slides>img{
-    margin: 40px 40px 40px 35px;
+    margin: 40px 40px 35px 40px;
+}
+.slider>.circle{
+    margin: 0;
 }
