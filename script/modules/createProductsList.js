@@ -31,7 +31,7 @@ export function createProducts(jsonObj) {
     price.classList.add('font-b', 'dark', 's20', 'h24');
     price.innerText = item.price + ' грн';
     btn.classList.add('bgr-wh', 'font-b', 'dark', 's18', 'h24', 'd-flex', 'al-cen');
-    btn.innerHTML = "<i class='fa fa-shopping-basket' aria-hidden='true'></i>Купить";
+    btn.innerHTML = "<i class='fa fa-shopping-basket' aria-hidden='true'></i>В корзину";
 
     if(item.filter) divProd.setAttribute('data-filter', item.filter);
     if(item.new) {
