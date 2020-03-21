@@ -4,6 +4,8 @@ header+div{
 .navig>a:hover{
     opacity: 0.6;
 }
+
+/*------------------------------ Слайдер ------------------------------*/
 .slider>.slide>img{
     margin: 40px 40px 35px 40px;
 }
@@ -14,7 +16,6 @@ header+div{
 .slider>.circle:hover{
     border: 1px solid #ed2132;
 }
-/* Кружочки */
 .slider-dots {
     text-align: center;
 }
@@ -34,12 +35,12 @@ header+div{
 .dot:last-child{
     margin: 0;
 }
-.active,
-.dot:hover {
+.active, .dot:hover {
     background-color: #ed2132;
 }
-/* Анимация слайдов */
-.slider .slide {
+
+/*------------------------------ Анимация слайдера ------------------------------*/
+.slide {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -62,3 +63,8 @@ header+div{
     }
 }
 
+.slider-dots+div>p{
+    width: 65%;
+    margin: 50px 0;
+    text-align: justify;
+}
