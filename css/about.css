@@ -65,8 +65,10 @@ header+div{
 
 .slider-dots+div>p{
     width: 65%;
-    margin: 50px 0;
     text-align: justify;
+}
+.slider-dots+div>p, input[type="range"]{
+    margin: 50px 0;
 }
 .inst{
     margin: 45px 0;
@@ -87,4 +89,10 @@ header+div{
     border: 2px solid #ed2132;
     background: #ed2132;
     color: #ffffff;
+}
+.photos>img{
+    width: 20%;
+}
+input[type="range"]{
+    
 }
