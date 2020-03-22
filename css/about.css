@@ -68,3 +68,23 @@ header+div{
     margin: 50px 0;
     text-align: justify;
 }
+.inst{
+    margin: 45px 0;
+}
+.inst>a{
+    padding: 15px 20px;
+    border: 2px solid #ebebeb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.inst>a>i{
+    margin-left: 20px;
+}
+.inst>a:hover{
+    border: 2px solid #ed2132;
+    background: #ed2132;
+    color: #ffffff;
+}
