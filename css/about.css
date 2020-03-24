@@ -97,6 +97,21 @@ header+div{
 /*------------------------------ Ползунок ------------------------------*/
 input[type="range"]{
     -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    height: 3px;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+input[type="range"]::-moz-range-track{
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
     height: 3px;
     background: #ebebeb;
     border: 1px solid #ebebeb;
@@ -108,14 +123,51 @@ input[type="range"]{
 }
 input[type="range"]::-webkit-slider-thumb{
     -webkit-appearance: none;
-    width: 63px;
-    height: 33px;
-    color: #ffffff;
+    appearance: none;
+    width: 18px;
+    height: 18px;
     background: #ed2132;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border: 2px solid #ed2132;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
     cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+input[type="range"]::-moz-range-thumb{
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #ed2132;
+    border: 2px solid #ed2132;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+input[type="range"]::-webkit-slider-thumb:hover,
+input[type="range"]::-webkit-slider-thumb:active{
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
+}
+input[type="range"]::-moz-range-thumb:hover,
+input[type="range"]::-moz-range-thumb:active{
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
 }
