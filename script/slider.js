@@ -32,7 +32,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
-setInterval(() => { showSlides(slideIndex += 1) }, 5000);
+setInterval(() => { nextSlide() }, 5000);
 
 document.querySelectorAll('.circle')[2].addEventListener('click', prevSlide);
 document.querySelectorAll('.circle')[3].addEventListener('click', nextSlide);

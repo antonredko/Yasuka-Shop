@@ -1,19 +1,21 @@
+import {createElem} from './createElem.js';
+
 export function createProducts(jsonObj) {
   const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
     PROD = document.querySelector('.products');
 
   jsonObj.forEach(item => {
-    let divProd = document.createElement('div'),
-      details = document.createElement('div'),
-      like = document.createElement('div'),
-      image = document.createElement('img'),
-      title = document.createElement('p'),
-      weight = document.createElement('p'),
-      composition = document.createElement('p'),
-      priceAndBye = document.createElement('div'),
-      price = document.createElement('p'),
-      btn = document.createElement('button'),
-      btnImg = document.createElement('i');
+    let divProd = createElem('div'),
+      details = createElem('div'),
+      like = createElem('div'),
+      image = createElem('img'),
+      title = createElem('p'),
+      weight = createElem('p'),
+      composition = createElem('p'),
+      priceAndBye = createElem('div'),
+      price = createElem('p'),
+      btn = createElem('button'),
+      btnImg = createElem('i');
     
     divProd.classList.add('prod', 'd-flex', 'col', 'j-ar', 'al-cen');
     details.classList.add('w-inh');
