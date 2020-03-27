@@ -38,6 +38,9 @@ header+div{
 .active, .dot:hover {
     background-color: #ed2132;
 }
+.dot:hover{
+    opacity: .6;
+}
 
 /*------------------------------ Анимация слайдера ------------------------------*/
 .slide {

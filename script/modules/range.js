@@ -18,9 +18,8 @@ for(i = 1; i <= 5; ++i) {
 }
 
 ARR_PHOTOS.forEach(item => {
-  PHOTOS.appendChild(item)
+  PHOTOS.appendChild(item);
 });
 
-// RANGE.oninput = () => {
-//   PHOTOS.children[0].style.display = 'none';
-// }
+RANGE.setAttribute('max', PHOTOS.children.length);
+RANGE.setAttribute('value', Math.round(PHOTOS.children.length/2));
