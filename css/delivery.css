@@ -7,7 +7,7 @@
 .deliv>p:nth-child(3){
     margin-bottom: 60px;
 }
-.deliv span{
+.deliv span, .fa-money, .fa-credit-card{
     color: #ed2132;
 }
 .deliv+div{
@@ -59,4 +59,21 @@
 .deliv+div>div>img{
     bottom: 0;
     right: 145px;
+}
+.zone, .pay{
+    margin: 55px 0;
+}
+.zoneCircle{
+    width: 25px;
+    height: 25px;
+    background: #ed2132;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.fa-money, .fa-credit-card{
+    margin: 0 20px 0 75px;
 }
