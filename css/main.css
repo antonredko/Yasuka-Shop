@@ -12,7 +12,6 @@ header>div:first-child>div{
 .fa-angle-down, .fa-map-marker{
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
 }
 .fa-angle-down{
     color: #4c4840;
@@ -198,9 +197,6 @@ header>div:last-child{
 .title:hover{
     cursor: pointer;
     color: #f6041f;
-}
-.prod>p{
-    text-align: center;
 }
 .prod>p.font-sb{
     width: 60%;

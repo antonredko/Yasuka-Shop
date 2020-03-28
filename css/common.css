@@ -9,6 +9,12 @@ a{
 .w100{
     width: 100%;
 }
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
 .w-inh{
     width: inherit;
 }
@@ -111,6 +117,21 @@ a{
 .h29{
     line-height: 29px;
 }
+.h35{
+    line-height: 35.42px;
+}
+.h61{
+    line-height: 61.35px;
+}
 .h62{
     line-height: 62.32px;
+}
+.h96{
+    line-height: 96px;
+}
+.t-al-cen{
+    text-align: center;
+}
+.t-al-jus{
+    text-align: justify;
 }

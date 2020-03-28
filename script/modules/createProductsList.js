@@ -23,11 +23,11 @@ export function createProducts(jsonObj) {
     like.innerHTML = '<i style="font-size: 24px;" class="fa fa-thumbs-o-up s24" aria-hidden="true"></i><span class="font-reg s14 h24">0</span>';
     image.src = item.img;
     image.setAttribute('alt', item.title);
-    title.classList.add('title', 'font-b', 'dark', 's20', 'h24');
+    title.classList.add('title', 'font-b', 'dark', 's20', 'h24', 't-al-cen');
     title.innerText = item.title;
-    weight.classList.add('font-b', 'l-grey', 's14', 'h24');
+    weight.classList.add('font-b', 'l-grey', 's14', 'h24', 't-al-cen');
     weight.innerText = item.weight + ' / ' + item.calorie;
-    composition.classList.add('font-sb', 'l-grey', 's14', 'h20');
+    composition.classList.add('font-sb', 'l-grey', 's14', 'h20', 't-al-cen');
     composition.innerText = item.composition;
     priceAndBye.classList.add('w-inh', 'd-flex', 'row', 'j-ar', 'al-cen');
     price.classList.add('font-b', 'dark', 's20', 'h24');

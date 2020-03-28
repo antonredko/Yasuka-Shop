@@ -16,9 +16,6 @@ header+div{
 .slider>.circle:hover{
     border: 1px solid #ed2132;
 }
-.slider-dots {
-    text-align: center;
-}
 .dot{
     cursor: pointer;
     height: 10px;
@@ -68,12 +65,8 @@ header+div{
 
 .slider-dots+div>p{
     width: 65%;
-    text-align: justify;
 }
-.slider-dots+div>p, input[type="range"]{
-    margin: 50px 0;
-}
-.inst{
+.inst, .slider-dots+div>p, input[type="range"]{
     margin: 45px 0;
 }
 .inst>a{
