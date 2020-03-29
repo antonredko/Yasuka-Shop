@@ -1,4 +1,4 @@
-import {createElem} from './createElem.js';
+import {createElem} from './common.js';
 
 export function createProducts(jsonObj) {
   const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),

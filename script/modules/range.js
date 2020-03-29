@@ -1,4 +1,4 @@
-import {createElem} from './createElem.js';
+import {createElem} from './common.js';
 
 const RANGE = document.querySelector('input[type="range"]'),
   PHOTOS = document.querySelector('.photos'),
