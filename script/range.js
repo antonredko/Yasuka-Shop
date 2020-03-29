@@ -13,7 +13,7 @@ function createInstagramImage(num) {
   ARR_PHOTOS.push(img);
 }
 
-for(i = 1; i <= 5; ++i) createInstagramImage(i);
+for(let i = 1; i <= 5; ++i) createInstagramImage(i);
 
 ARR_PHOTOS.forEach(item => { PHOTOS.appendChild(item) });
 

@@ -32,12 +32,12 @@
         </div> -->
     </div>
     <script type="module">
-        import {querySelect} from '../script/modules/common.js';
+        import {querySelect} from '../script/common.js';
         querySelect('title').innerHTML = querySelect('title').innerHTML + ' - Главная';
     </script>
-    <script type="module" src="../../script/modules/connectionJSON.js"></script>
-    <script type="module" src="../../script/modules/createFilters.js"></script>
-    <script type="module" src="../../script/modules/createProductsList.js"></script>
-    <script type="module" src="../../script/modules/filterProducts.js"></script>
-    <script type="module" src="../../script/modules/creature/createSushi.js"></script>
+    <script type="module" src="../../script/connectionJSON.js"></script>
+    <script type="module" src="../../script/createFilters.js"></script>
+    <script type="module" src="../../script/createProductsList.js"></script>
+    <script type="module" src="../../script/filterProducts.js"></script>
+    <script type="module" src="../../script/creature/createSushi.js"></script>
 <?php include 'temp/footer.html'; ?>

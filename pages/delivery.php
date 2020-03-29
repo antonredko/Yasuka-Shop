@@ -53,7 +53,7 @@
     <!-- <script type="text/javascript" src="//exmoto.com/widget_exmoto"></script> -->
 
     <script type="module">
-        import {querySelect} from '../script/modules/common.js';
+        import {querySelect} from '../script/common.js';
         querySelect('title').innerHTML = querySelect('title').innerHTML + ' - Доставка и оплата';
     </script>
 <?php include 'temp/footer.html'; ?>

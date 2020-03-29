@@ -40,9 +40,9 @@
     </div>
 
     <script type="module">
-        import {querySelect} from '../script/modules/common.js';
+        import {querySelect} from '../script/common.js';
         querySelect('title').innerHTML = querySelect('title').innerHTML + ' - О нас';
     </script>
-    <script type="module" src="../script/modules/slider.js"></script>
-    <script type="module" src="../script/modules/range.js"></script>
+    <script type="module" src="../script/slider.js"></script>
+    <script type="module" src="../script/range.js"></script>
 <?php include 'temp/footer.html'; ?>
