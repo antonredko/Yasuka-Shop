@@ -69,7 +69,6 @@
                 <a href="#" class="font-b s20 h35">Новая фишка</a>
                 <p class="font-b s40 h61">Отследить курьера</p>
                 <p class="font-reg s20 h96">Смотрите, где находится ваш заказ</p>
-                <!-- <img class="pos-abs" src="../img/delivloc.png" alt="Location"> -->
             </div>
         </div>
     </div>
