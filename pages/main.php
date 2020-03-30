@@ -42,20 +42,34 @@
             <div class="stock">
                 <div class="w100 h-inh">
                     <div class="h-inh d-flex col j-ar">
-                        <p class="strock-num t-al-cen font-b s60">-15%</p>
+                        <p class="stock-num t-al-cen font-b s60">-15%</p>
                         <p class="t-al-cen font-b s24 h29">на ролл Филадельфия с лососем</p>
-                        <p class="font-b s14 h22">Акция действует до 25.09.2019</p> 
+                        <p class="font-b s14 h22">Акция действует до 25.09.2020</p> 
                     </div>
                 </div>
             </div>
             <div class="stock">
                 <div class="w100 h-inh">
                     <div class="h-inh d-flex col j-ar">
-                        <p class="strock-num t-al-cen font-b s60">-20%</p>
+                        <p class="stock-num t-al-cen font-b s60">-20%</p>
                         <p class="t-al-cen font-b s24 h29">на сет Филадельфия</p>
-                        <p class="font-b s14 h22">Акция действует до 25.09.2019</p>
+                        <p class="font-b s14 h22">Акция действует до 25.09.2020</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-inh d-flex col al-cen">
+        <div class="deliv w1152_pad9 d-flex col">
+            <p class="font-b dark s30 h24">Доставка</p>
+            <p class="font-reg dark s14 h24 t-al-jus">Доставка еды на дом или в офис - отличный способ вкусно и сытно пообедать или поужинать блюдами, приготовленными настоящими знатоками кулинарного мастерства. Еда с доставкой от нашего сервиса - наиболее косфортный способ оценить вкус блюд различных кулинарных традиций планеты. Оперативно, недорого и без лишних хлопот. Практически круглосуточная доставка еды (до часу ночи) дает возможность уталить голод в любое время. Термосумки наших курьеров отлично сохраняют блюда горячими и поддерживают комфортную температуру освежающих напитков.</p>
+        </div>
+        <div class="w1152_pad9 d-flex">
+            <div class="w-inh">
+                <a href="#" class="font-b s20 h35">Новая фишка</a>
+                <p class="font-b s40 h61">Отследить курьера</p>
+                <p class="font-reg s20 h96">Смотрите, где находится ваш заказ</p>
+                <!-- <img class="pos-abs" src="../img/delivloc.png" alt="Location"> -->
             </div>
         </div>
     </div>

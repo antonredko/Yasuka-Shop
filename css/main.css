@@ -85,7 +85,7 @@ header>div:last-child{
     height: 64px;
     padding: 0 9px;
     text-decoration: none;
-    border-top: 3px solid white;
+    border-top: 3px solid #ffffff;
 }
 .navbar>p>a:hover{
     border-top: 3px solid #f6041f;
@@ -269,6 +269,7 @@ header>div:last-child{
 .stock{
     width: 48%;
     height: 240px;
+    margin-bottom: 75px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -294,7 +295,7 @@ header>div:last-child{
 .stock>div>div>p{
     color: #ffffff;
 }
-.strock-num{
+.stock-num{
     width: 50%;
     padding: 10px 20px;
     border: 1px dashed #ffffff;
@@ -303,6 +304,41 @@ header>div:last-child{
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+}
+
+/*------------------------------ Доставка ------------------------------*/
+.deliv>p:first-child{
+    margin-bottom: 45px;
+}
+.deliv>p:last-child, .deliv+div{
+    margin-bottom: 75px;
+}
+.deliv+div>div{
+    height: 340px;
+    padding: 0 70px;
+    background: center right url(../img/delivloc.png) no-repeat;
+}
+.deliv+div>div>a{
+    top: 35px;
+    left: 45px;
+    padding: 20px 25px;
+    border: 1px dashed #ed2132;
+    color: #ed2132;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+.deliv+div>div>a:hover{
+    background: #ed2132;
+    color: #ffffff;
+}
+.deliv+div>div>p{
+    margin-top: 45px;
+}
+.deliv+div>div>p:last-child{
+    margin-top: 0;
 }
 
 /*------------------------------ Футер ------------------------------*/
