@@ -41,7 +41,8 @@
     -o-border-radius: 35px;
 }
 .deliv+div>div>a:hover{
-    opacity: .6;
+    background: #ffffff;
+    color: #e70013;
 }
 .deliv+div>div>a, .deliv+div>div>p{
     color: #ffffff;

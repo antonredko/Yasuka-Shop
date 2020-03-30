@@ -245,6 +245,66 @@ header>div:last-child{
     -o-border-radius: 15px;
 }
 
+/*------------------------------ Акции ------------------------------*/
+.stocks{
+    margin-bottom: 45px;
+}
+.stocksAll{
+    padding: 15px 20px;
+    border: 2px solid #ebebeb;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.stocksAll>i{
+    margin-left: 20px;
+}
+.stocksAll:hover{
+    border: 2px solid #ed2132;
+    background: #ed2132;
+    color: #ffffff;
+}
+.stock{
+    width: 48%;
+    height: 240px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.stock:first-child{
+    background: #ed9e4b;
+}
+.stock:first-child>div{
+    background: center right url(../img/strock-1.png) no-repeat;
+}
+.stock:nth-child(2){
+    background: #e84d1d;
+}
+.stock:nth-child(2)>div{
+    background: center right url(../img/strock-2.png) no-repeat;
+}
+.stock>div>div{
+    width: 50%;
+    padding-left: 25px;
+}
+.stock>div>div>p{
+    color: #ffffff;
+}
+.strock-num{
+    width: 50%;
+    padding: 10px 20px;
+    border: 1px dashed #ffffff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
 /*------------------------------ Футер ------------------------------*/
 footer{
     height: 431px;

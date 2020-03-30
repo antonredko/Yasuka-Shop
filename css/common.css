@@ -35,6 +35,12 @@ a{
 .bgr-wh{
     background: #ffffff;
 }
+.t-al-cen{
+    text-align: center;
+}
+.t-al-jus{
+    text-align: justify;
+}
 
 /*------------------------------ Флексы ------------------------------*/
 .d-flex{
@@ -105,8 +111,14 @@ a{
 .s40{
     font-size: 40px;
 }
+.s60{
+    font-size: 60px;
+}
 .h20{
     line-height: 20px;
+}
+.h22{
+    line-height: 22px;
 }
 .h23{
     line-height: 23px;
@@ -128,10 +140,4 @@ a{
 }
 .h96{
     line-height: 96px;
-}
-.t-al-cen{
-    text-align: center;
-}
-.t-al-jus{
-    text-align: justify;
 }

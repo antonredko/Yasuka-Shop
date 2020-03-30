@@ -31,6 +31,34 @@
             <button class="showMore font-b dark s18 h24 d-flex al-cen"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Показать еще</button>
         </div> -->
     </div>
+    <div class="w-inh d-flex col al-cen">
+        <div class="stocks w1152_pad9 d-flex j-btw al-cen">
+            <p class="font-b dark s30 h62">Акции</p>
+            <a class="stocksAll bgr-wh font-b dark s18 h24" href="#" target="_blank">
+                Все акции<i class="fa fa-arrow-right s14" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="w1152_pad9 d-flex j-btw al-cen">
+            <div class="stock">
+                <div class="w100 h-inh">
+                    <div class="h-inh d-flex col j-ar">
+                        <p class="strock-num t-al-cen font-b s60">-15%</p>
+                        <p class="t-al-cen font-b s24 h29">на ролл Филадельфия с лососем</p>
+                        <p class="font-b s14 h22">Акция действует до 25.09.2019</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="stock">
+                <div class="w100 h-inh">
+                    <div class="h-inh d-flex col j-ar">
+                        <p class="strock-num t-al-cen font-b s60">-20%</p>
+                        <p class="t-al-cen font-b s24 h29">на сет Филадельфия</p>
+                        <p class="font-b s14 h22">Акция действует до 25.09.2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="module">
         import {querySelect} from '../script/common.js';
         querySelect('title').innerHTML = querySelect('title').innerHTML + ' - Главная';
