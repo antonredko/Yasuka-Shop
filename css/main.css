@@ -310,7 +310,7 @@ header>div:last-child{
 .deliv>p:first-child{
     margin-bottom: 45px;
 }
-.deliv>p:last-child, .deliv+div{
+.deliv>p:last-child{
     margin-bottom: 75px;
 }
 .deliv+div>div{
