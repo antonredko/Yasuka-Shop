@@ -27,7 +27,7 @@
     </div>
     <div class="w-inh d-flex col al-cen">
         <div class="w1152_pad9 d-flex col">
-            <p class="font-b dark s30 h24">Зоны и стоимость доставки</p>
+            <p class="zoneTitle font-b dark s30 h24">Зоны и стоимость доставки</p>
             <div class="zone d-flex j-btw">
                 <div class="d-flex al-cen">
                     <div class="zoneCircle"></div>

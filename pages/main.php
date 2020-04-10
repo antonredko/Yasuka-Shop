@@ -38,27 +38,7 @@
                 Все акции<i class="fa fa-arrow-right s14" aria-hidden="true"></i>
             </a>
         </div>
-        <div class="w1152_pad9 d-flex j-btw al-cen">
-            <div class="stock">
-                <div class="w100 h-inh">
-                    <div class="h-inh d-flex col j-ar">
-                        <p class="stock-num t-al-cen font-b s60">-15%</p>
-                        <p class="t-al-cen font-b s24 h29">на ролл Филадельфия с лососем</p>
-                        <p class="font-b s14 h22">Акция действует до 25.09.2020</p> 
-                    </div>
-                </div>
-            </div>
-            <div class="stock">
-                <div class="w100 h-inh">
-                    <div class="h-inh d-flex col j-ar">
-                        <p class="stock-num t-al-cen font-b s60">-20%</p>
-                        <p class="t-al-cen font-b s24 h29">на сет Филадельфия</p>
-                        <p class="font-b s14 h22">Акция действует до 25.09.2020</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <?php include 'temp/stocks.html'; ?>
     <div class="w-inh d-flex col al-cen">
         <div class="deliv w1152_pad9 d-flex col">
             <p class="font-b dark s30 h24">Доставка</p>
