@@ -34,7 +34,7 @@
     <div class="w-inh d-flex col al-cen">
         <div class="stocks w1152_pad9 d-flex j-btw al-cen">
             <p class="font-b dark s30 h62">Акции</p>
-            <a class="stocksAll bgr-wh font-b dark s18 h24" href="#" target="_blank">
+            <a class="stocksAll bgr-wh font-b dark s18 h24" href="pages/stocks.php" target="_blank">
                 Все акции<i class="fa fa-arrow-right s14" aria-hidden="true"></i>
             </a>
         </div>
