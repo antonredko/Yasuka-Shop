@@ -38,7 +38,9 @@
                 Все акции<i class="fa fa-arrow-right s14" aria-hidden="true"></i>
             </a>
         </div>
+
         <?php include 'temp/stocks.html'; ?>
+        
     <div class="w-inh d-flex col al-cen">
         <div class="deliv w1152_pad9 d-flex col">
             <p class="font-b dark s30 h24">Доставка</p>

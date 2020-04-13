@@ -1,3 +1,5 @@
+import {querySelectAll, getElemByClass} from './common.js';
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -14,8 +16,8 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    let slides = document.getElementsByClassName("slide"),
-        dots = document.getElementsByClassName("dot");
+    let slides = getElemByClass("slide"),
+        dots = getElemByClass("dot");
 
     if(n > slides.length) slideIndex = 1;
 
@@ -34,9 +36,9 @@ function showSlides(n) {
 
 setInterval(() => { nextSlide() }, 5000);
 
-document.querySelectorAll('.circle')[2].addEventListener('click', prevSlide);
-document.querySelectorAll('.circle')[3].addEventListener('click', nextSlide);
+querySelectAll('.circle')[2].addEventListener('click', prevSlide);
+querySelectAll('.circle')[3].addEventListener('click', nextSlide);
 
-document.querySelectorAll('.dot')[0].onclick = () => { currentSlide(1) };
-document.querySelectorAll('.dot')[1].onclick = () => { currentSlide(2) };
-document.querySelectorAll('.dot')[2].onclick = () => { currentSlide(3) };
+querySelectAll('.dot')[0].onclick = () => { currentSlide(1) };
+querySelectAll('.dot')[1].onclick = () => { currentSlide(2) };
+querySelectAll('.dot')[2].onclick = () => { currentSlide(3) };

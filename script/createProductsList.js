@@ -1,8 +1,8 @@
-import {createElem} from './common.js';
+import {createElem, querySelect} from './common.js';
 
 export function createProducts(jsonObj) {
-  const  MAIN_PROD = document.querySelector('.w-inh.d-flex.col.j-cen.al-cen'),
-    PROD = document.querySelector('.products');
+  const  MAIN_PROD = querySelect('.w-inh.d-flex.col.j-cen.al-cen'),
+    PROD = querySelect('.products');
 
   jsonObj.forEach(item => {
     let divProd = createElem('div'),
@@ -37,13 +37,13 @@ export function createProducts(jsonObj) {
 
     if(item.filter) divProd.setAttribute('data-filter', item.filter);
     if(item.new) {
-      let nw = document.createElement('div');
+      let nw = createElem('div');
       nw.classList.add('new', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');
       nw.innerText = 'New';
       details.appendChild(nw);
     }
     if(item.discount) {
-      let discount = document.createElement('div');
+      let discount = createElem('div');
       discount.classList.add('discount', 'font-reg', 's16', 'h24', 'd-flex', 'j-cen', 'al-cen');
       discount.innerText = item.discount;
       details.appendChild(discount);
@@ -63,8 +63,8 @@ export function createProducts(jsonObj) {
     priceAndBye.appendChild(btn);
   });
 
-  let mainShowMore = document.createElement('div'),
-    btnShowMore = document.createElement('button');
+  let mainShowMore = createElem('div'),
+    btnShowMore = createElem('button');
 
   mainShowMore.classList.add('w-inh', 'd-flex', 'j-cen');
   btnShowMore.classList.add('showMore', 'font-b', 'dark', 's18', 'h24', 'd-flex', 'al-cen');

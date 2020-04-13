@@ -1,9 +1,9 @@
+import {querySelectAll} from './common.js';
 import {createFilters} from './createFilters.js';
 import {createProducts} from './createProductsList.js';
 
-window.onload = function() {
-
-    document.querySelectorAll('.filter').forEach(item => {
+document.addEventListener('DOMContentLoaded', function() {
+    querySelectAll('.filter').forEach(item => {
         item.addEventListener('click', filterOn);
     });
 
@@ -22,4 +22,4 @@ window.onload = function() {
         this.removeEventListener('click', filterOff);
         this.addEventListener('click', filterOn);
     }
-}
+});

@@ -1,7 +1,7 @@
-import {createElem} from './common.js';
+import {createElem, querySelect} from './common.js';
 
-const RANGE = document.querySelector('input[type="range"]'),
-  PHOTOS = document.querySelector('.photos'),
+const RANGE = querySelect('input[type="range"]'),
+  PHOTOS = querySelect('.photos'),
   ARR_PHOTOS = [];
 
 function createInstagramImage(num) {

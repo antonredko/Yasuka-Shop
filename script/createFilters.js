@@ -1,5 +1,7 @@
+import {createElem, querySelect} from './common.js';
+
 export function createFilters(jsonObj) {
-    const MAIN_FILTERS = document.querySelector('.filters'),
+    const MAIN_FILTERS = querySelect('.filters'),
         FILTERS = MAIN_FILTERS.querySelector('.w1140_pad15');
 
     let arrayFilters = [];
@@ -23,7 +25,7 @@ export function createFilters(jsonObj) {
   
     arrayFilters = Array.from(new Set(arrayFilters));
     arrayFilters.forEach(item => {
-        let filter = document.createElement('div');
+        let filter = createElem('div');
         filter.classList.add('filter', 'filterNoActive', 'font-reg', 's16', 'h24', 'd-flex', 'row', 'j-ar', 'al-cen');
         filter.innerHTML = '<i class="fa fa-check-circle-o" aria-hidden="true"></i><p class="filterName">' + item + '</p><i class="fa fa-times" aria-hidden="true"></i>';
         FILTERS.appendChild(filter);
